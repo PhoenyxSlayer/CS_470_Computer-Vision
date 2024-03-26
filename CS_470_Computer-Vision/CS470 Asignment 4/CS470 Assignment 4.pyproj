@@ -1,0 +1,72 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>e45c31fa-b04b-4825-81c3-508ce7021515</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>A04.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>CS470 Assignment 4</Name>
+    <RootNamespace>CS470 Asignment 4</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.10</InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <TestFramework>unittest</TestFramework>
+    <UnitTestPattern>test*.py</UnitTestPattern>
+    <UnitTestRootDirectory>.</UnitTestRootDirectory>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="A04.py" />
+    <Compile Include="Test_A04.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assign04\" />
+    <Folder Include="assign04\ground\" />
+    <Folder Include="assign04\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assign04\ground\HISTOGRAMS_1.csv" />
+    <Content Include="assign04\ground\HISTOGRAMS_2.csv" />
+    <Content Include="assign04\ground\HISTOGRAMS_3.csv" />
+    <Content Include="assign04\ground\HISTOGRAMS_4.csv" />
+    <Content Include="assign04\ground\LBP_Image0.png" />
+    <Content Include="assign04\ground\LBP_Image1.png" />
+    <Content Include="assign04\ground\LBP_Image2.png" />
+    <Content Include="assign04\ground\LBP_Image3.png" />
+    <Content Include="assign04\ground\LBP_Image4.png" />
+    <Content Include="assign04\ground\LBP_Image5.png" />
+    <Content Include="assign04\ground\LBP_Image6.png" />
+    <Content Include="assign04\images\Image0.png" />
+    <Content Include="assign04\images\Image1.png" />
+    <Content Include="assign04\images\Image2.png" />
+    <Content Include="assign04\images\Image3.png" />
+    <Content Include="assign04\images\Image4.png" />
+    <Content Include="assign04\images\Image5.png" />
+    <Content Include="assign04\images\Image6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|CV" />
+    <InterpreterReference Include="Global|PythonCore|3.10" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

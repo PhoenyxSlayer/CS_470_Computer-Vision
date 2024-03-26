@@ -1,0 +1,331 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>98ddba68-8c1f-4824-bfd4-4fd4333394b6</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Train_A03.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>CS470 Assignment 3</Name>
+    <RootNamespace>CS470 Assignment 3</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.9</InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="A03.py" />
+    <Compile Include="Train_A03.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|CV" />
+    <InterpreterReference Include="Global|PythonCore|3.10" />
+    <InterpreterReference Include="Global|PythonCore|3.9" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="example\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="2020-09-21.png" />
+    <Content Include="example\RESULTS.txt" />
+    <Content Include="example\TEST_000.png" />
+    <Content Include="example\TEST_001.png" />
+    <Content Include="example\TEST_002.png" />
+    <Content Include="example\TEST_003.png" />
+    <Content Include="example\TEST_004.png" />
+    <Content Include="example\TEST_005.png" />
+    <Content Include="example\TEST_006.png" />
+    <Content Include="example\TEST_007.png" />
+    <Content Include="example\TEST_008.png" />
+    <Content Include="example\TEST_009.png" />
+    <Content Include="example\TEST_010.png" />
+    <Content Include="example\TEST_011.png" />
+    <Content Include="example\TEST_012.png" />
+    <Content Include="example\TEST_013.png" />
+    <Content Include="example\TEST_014.png" />
+    <Content Include="example\TEST_015.png" />
+    <Content Include="example\TEST_016.png" />
+    <Content Include="example\TEST_017.png" />
+    <Content Include="example\TEST_018.png" />
+    <Content Include="example\TEST_019.png" />
+    <Content Include="example\TEST_020.png" />
+    <Content Include="example\TEST_021.png" />
+    <Content Include="example\TEST_022.png" />
+    <Content Include="example\TEST_023.png" />
+    <Content Include="example\TEST_024.png" />
+    <Content Include="example\TEST_025.png" />
+    <Content Include="example\TEST_026.png" />
+    <Content Include="example\TEST_027.png" />
+    <Content Include="example\TEST_028.png" />
+    <Content Include="example\TEST_029.png" />
+    <Content Include="example\TEST_030.png" />
+    <Content Include="example\TEST_031.png" />
+    <Content Include="example\TEST_032.png" />
+    <Content Include="example\TEST_033.png" />
+    <Content Include="example\TEST_034.png" />
+    <Content Include="example\TEST_035.png" />
+    <Content Include="example\TEST_036.png" />
+    <Content Include="example\TEST_037.png" />
+    <Content Include="example\TEST_038.png" />
+    <Content Include="example\TEST_039.png" />
+    <Content Include="example\TEST_040.png" />
+    <Content Include="example\TEST_041.png" />
+    <Content Include="example\TEST_042.png" />
+    <Content Include="example\TEST_043.png" />
+    <Content Include="example\TEST_044.png" />
+    <Content Include="example\TEST_045.png" />
+    <Content Include="example\TEST_046.png" />
+    <Content Include="example\TEST_047.png" />
+    <Content Include="example\TEST_048.png" />
+    <Content Include="example\TEST_049.png" />
+    <Content Include="example\TEST_050.png" />
+    <Content Include="example\TEST_051.png" />
+    <Content Include="example\TEST_052.png" />
+    <Content Include="example\TEST_053.png" />
+    <Content Include="example\TEST_054.png" />
+    <Content Include="example\TEST_055.png" />
+    <Content Include="example\TEST_056.png" />
+    <Content Include="example\TEST_057.png" />
+    <Content Include="example\TEST_058.png" />
+    <Content Include="example\TEST_059.png" />
+    <Content Include="example\TEST_060.png" />
+    <Content Include="example\TEST_061.png" />
+    <Content Include="example\TEST_062.png" />
+    <Content Include="example\TEST_063.png" />
+    <Content Include="example\TEST_064.png" />
+    <Content Include="example\TEST_065.png" />
+    <Content Include="example\TEST_066.png" />
+    <Content Include="example\TEST_067.png" />
+    <Content Include="example\TEST_068.png" />
+    <Content Include="example\TEST_069.png" />
+    <Content Include="example\TEST_070.png" />
+    <Content Include="example\TEST_071.png" />
+    <Content Include="example\TRAIN_000.png" />
+    <Content Include="example\TRAIN_001.png" />
+    <Content Include="example\TRAIN_002.png" />
+    <Content Include="example\TRAIN_003.png" />
+    <Content Include="example\TRAIN_004.png" />
+    <Content Include="example\TRAIN_005.png" />
+    <Content Include="example\TRAIN_006.png" />
+    <Content Include="example\TRAIN_007.png" />
+    <Content Include="example\TRAIN_008.png" />
+    <Content Include="example\TRAIN_009.png" />
+    <Content Include="example\TRAIN_010.png" />
+    <Content Include="example\TRAIN_011.png" />
+    <Content Include="example\TRAIN_012.png" />
+    <Content Include="example\TRAIN_013.png" />
+    <Content Include="example\TRAIN_014.png" />
+    <Content Include="example\TRAIN_015.png" />
+    <Content Include="example\TRAIN_016.png" />
+    <Content Include="example\TRAIN_017.png" />
+    <Content Include="example\TRAIN_018.png" />
+    <Content Include="example\TRAIN_019.png" />
+    <Content Include="example\TRAIN_020.png" />
+    <Content Include="example\TRAIN_021.png" />
+    <Content Include="example\TRAIN_022.png" />
+    <Content Include="example\TRAIN_023.png" />
+    <Content Include="example\TRAIN_024.png" />
+    <Content Include="example\TRAIN_025.png" />
+    <Content Include="example\TRAIN_026.png" />
+    <Content Include="example\TRAIN_027.png" />
+    <Content Include="example\TRAIN_028.png" />
+    <Content Include="example\TRAIN_029.png" />
+    <Content Include="example\TRAIN_030.png" />
+    <Content Include="example\TRAIN_031.png" />
+    <Content Include="example\TRAIN_032.png" />
+    <Content Include="example\TRAIN_033.png" />
+    <Content Include="example\TRAIN_034.png" />
+    <Content Include="example\TRAIN_035.png" />
+    <Content Include="example\TRAIN_036.png" />
+    <Content Include="example\TRAIN_037.png" />
+    <Content Include="example\TRAIN_038.png" />
+    <Content Include="example\TRAIN_039.png" />
+    <Content Include="example\TRAIN_040.png" />
+    <Content Include="example\TRAIN_041.png" />
+    <Content Include="example\TRAIN_042.png" />
+    <Content Include="example\TRAIN_043.png" />
+    <Content Include="example\TRAIN_044.png" />
+    <Content Include="example\TRAIN_045.png" />
+    <Content Include="example\TRAIN_046.png" />
+    <Content Include="example\TRAIN_047.png" />
+    <Content Include="example\TRAIN_048.png" />
+    <Content Include="example\TRAIN_049.png" />
+    <Content Include="example\TRAIN_050.png" />
+    <Content Include="example\TRAIN_051.png" />
+    <Content Include="example\TRAIN_052.png" />
+    <Content Include="example\TRAIN_053.png" />
+    <Content Include="example\TRAIN_054.png" />
+    <Content Include="example\TRAIN_055.png" />
+    <Content Include="example\TRAIN_056.png" />
+    <Content Include="example\TRAIN_057.png" />
+    <Content Include="example\TRAIN_058.png" />
+    <Content Include="example\TRAIN_059.png" />
+    <Content Include="example\TRAIN_060.png" />
+    <Content Include="example\TRAIN_061.png" />
+    <Content Include="example\TRAIN_062.png" />
+    <Content Include="example\TRAIN_063.png" />
+    <Content Include="example\TRAIN_064.png" />
+    <Content Include="example\TRAIN_065.png" />
+    <Content Include="example\TRAIN_066.png" />
+    <Content Include="example\TRAIN_067.png" />
+    <Content Include="example\TRAIN_068.png" />
+    <Content Include="example\TRAIN_069.png" />
+    <Content Include="example\TRAIN_070.png" />
+    <Content Include="example\TRAIN_071.png" />
+    <Content Include="example\TRAIN_072.png" />
+    <Content Include="example\TRAIN_073.png" />
+    <Content Include="example\TRAIN_074.png" />
+    <Content Include="example\TRAIN_075.png" />
+    <Content Include="example\TRAIN_076.png" />
+    <Content Include="example\TRAIN_077.png" />
+    <Content Include="example\TRAIN_078.png" />
+    <Content Include="example\TRAIN_079.png" />
+    <Content Include="example\TRAIN_080.png" />
+    <Content Include="example\TRAIN_081.png" />
+    <Content Include="example\TRAIN_082.png" />
+    <Content Include="example\TRAIN_083.png" />
+    <Content Include="example\TRAIN_084.png" />
+    <Content Include="example\TRAIN_085.png" />
+    <Content Include="example\TRAIN_086.png" />
+    <Content Include="example\TRAIN_087.png" />
+    <Content Include="example\TRAIN_088.png" />
+    <Content Include="example\TRAIN_089.png" />
+    <Content Include="example\TRAIN_090.png" />
+    <Content Include="example\TRAIN_091.png" />
+    <Content Include="example\TRAIN_092.png" />
+    <Content Include="example\TRAIN_093.png" />
+    <Content Include="example\TRAIN_094.png" />
+    <Content Include="example\TRAIN_095.png" />
+    <Content Include="example\TRAIN_096.png" />
+    <Content Include="example\TRAIN_097.png" />
+    <Content Include="example\TRAIN_098.png" />
+    <Content Include="example\TRAIN_099.png" />
+    <Content Include="example\TRAIN_100.png" />
+    <Content Include="example\TRAIN_101.png" />
+    <Content Include="example\TRAIN_102.png" />
+    <Content Include="example\TRAIN_103.png" />
+    <Content Include="example\TRAIN_104.png" />
+    <Content Include="example\TRAIN_105.png" />
+    <Content Include="example\TRAIN_106.png" />
+    <Content Include="example\TRAIN_107.png" />
+    <Content Include="example\TRAIN_108.png" />
+    <Content Include="example\TRAIN_109.png" />
+    <Content Include="example\TRAIN_110.png" />
+    <Content Include="example\TRAIN_111.png" />
+    <Content Include="example\TRAIN_112.png" />
+    <Content Include="example\TRAIN_113.png" />
+    <Content Include="example\TRAIN_114.png" />
+    <Content Include="example\TRAIN_115.png" />
+    <Content Include="example\TRAIN_116.png" />
+    <Content Include="example\TRAIN_117.png" />
+    <Content Include="example\TRAIN_118.png" />
+    <Content Include="example\TRAIN_119.png" />
+    <Content Include="example\TRAIN_120.png" />
+    <Content Include="example\TRAIN_121.png" />
+    <Content Include="example\TRAIN_122.png" />
+    <Content Include="example\TRAIN_123.png" />
+    <Content Include="example\TRAIN_124.png" />
+    <Content Include="example\TRAIN_125.png" />
+    <Content Include="example\TRAIN_126.png" />
+    <Content Include="example\TRAIN_127.png" />
+    <Content Include="example\TRAIN_128.png" />
+    <Content Include="example\TRAIN_129.png" />
+    <Content Include="example\TRAIN_130.png" />
+    <Content Include="example\TRAIN_131.png" />
+    <Content Include="example\TRAIN_132.png" />
+    <Content Include="example\TRAIN_133.png" />
+    <Content Include="example\TRAIN_134.png" />
+    <Content Include="example\TRAIN_135.png" />
+    <Content Include="example\TRAIN_136.png" />
+    <Content Include="example\TRAIN_137.png" />
+    <Content Include="example\TRAIN_138.png" />
+    <Content Include="example\TRAIN_139.png" />
+    <Content Include="example\TRAIN_140.png" />
+    <Content Include="example\TRAIN_141.png" />
+    <Content Include="example\TRAIN_142.png" />
+    <Content Include="example\TRAIN_143.png" />
+    <Content Include="example\TRAIN_144.png" />
+    <Content Include="example\TRAIN_145.png" />
+    <Content Include="example\TRAIN_146.png" />
+    <Content Include="example\TRAIN_147.png" />
+    <Content Include="example\TRAIN_148.png" />
+    <Content Include="example\TRAIN_149.png" />
+    <Content Include="example\TRAIN_150.png" />
+    <Content Include="example\TRAIN_151.png" />
+    <Content Include="example\TRAIN_152.png" />
+    <Content Include="example\TRAIN_153.png" />
+    <Content Include="example\TRAIN_154.png" />
+    <Content Include="example\TRAIN_155.png" />
+    <Content Include="example\TRAIN_156.png" />
+    <Content Include="example\TRAIN_157.png" />
+    <Content Include="example\TRAIN_158.png" />
+    <Content Include="example\TRAIN_159.png" />
+    <Content Include="example\TRAIN_160.png" />
+    <Content Include="example\TRAIN_161.png" />
+    <Content Include="example\TRAIN_162.png" />
+    <Content Include="example\TRAIN_163.png" />
+    <Content Include="example\TRAIN_164.png" />
+    <Content Include="example\TRAIN_165.png" />
+    <Content Include="example\TRAIN_166.png" />
+    <Content Include="example\TRAIN_167.png" />
+    <Content Include="example\TRAIN_168.png" />
+    <Content Include="example\TRAIN_169.png" />
+    <Content Include="example\TRAIN_170.png" />
+    <Content Include="example\TRAIN_171.png" />
+    <Content Include="example\TRAIN_172.png" />
+    <Content Include="example\TRAIN_173.png" />
+    <Content Include="example\TRAIN_174.png" />
+    <Content Include="example\TRAIN_175.png" />
+    <Content Include="example\TRAIN_176.png" />
+    <Content Include="example\TRAIN_177.png" />
+    <Content Include="example\TRAIN_178.png" />
+    <Content Include="example\TRAIN_179.png" />
+    <Content Include="example\TRAIN_180.png" />
+    <Content Include="example\TRAIN_181.png" />
+    <Content Include="example\TRAIN_182.png" />
+    <Content Include="example\TRAIN_183.png" />
+    <Content Include="example\TRAIN_184.png" />
+    <Content Include="example\TRAIN_185.png" />
+    <Content Include="example\TRAIN_186.png" />
+    <Content Include="example\TRAIN_187.png" />
+    <Content Include="example\TRAIN_188.png" />
+    <Content Include="example\TRAIN_189.png" />
+    <Content Include="example\TRAIN_190.png" />
+    <Content Include="example\TRAIN_191.png" />
+    <Content Include="example\TRAIN_192.png" />
+    <Content Include="example\TRAIN_193.png" />
+    <Content Include="example\TRAIN_194.png" />
+    <Content Include="example\TRAIN_195.png" />
+    <Content Include="example\TRAIN_196.png" />
+    <Content Include="example\TRAIN_197.png" />
+    <Content Include="example\TRAIN_198.png" />
+    <Content Include="example\TRAIN_199.png" />
+    <Content Include="example\TRAIN_200.png" />
+    <Content Include="example\TRAIN_201.png" />
+    <Content Include="example\TRAIN_202.png" />
+    <Content Include="example\TRAIN_203.png" />
+    <Content Include="example\TRAIN_204.png" />
+    <Content Include="images %281%29.jpg" />
+    <Content Include="images.jpg" />
+    <Content Include="Screenshot_20221028_081622.png" />
+    <Content Include="Screenshot_20221029_110534.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
